@@ -1,0 +1,61 @@
+:root {
+    --highlight: light-dark(#ffffff, #000000);
+    --primary-study: #f6466f;
+    --secondary-study: #f39caa;
+    --bg: light-dark(#000000, #ffffff);
+  }
+  
+  .studynote {
+    color: var(--highlight);
+    background-color: var(--bg);
+    --text-normal: var(--highlight);
+    --text-muted: var(--highlight);
+    --text-faint: var(--highlight);
+    --checklist-done-color: var(--highlight);
+    --metadata-label-text-color: var(--highlight);
+    --metadata-input-text-color: var(--highlight);
+    --tag-color: var(--bg);
+    --tag-background: var(--primary-study);
+    --tag-color-hover: var(--highlight);
+    --tag-background-hover: var(--secondary-study);
+    --hr-color: var(--primary-study);
+    --blockquote-border-color: var(--primary-study);
+    --interactive-accent: var(--primary-study);
+    --collapse-icon-color-collapsed: var(--primary-study);
+    --checkbox-color: var(--primary-study);
+    --checkbox-marker-color: var(--bg);
+    --checkbox-color-hover: var(--highlight);
+    --checkbox-border-color: var(--highlight);
+    --list-marker-color: var(--primary-study);
+    --code-background: var(--bg);
+    --code-normal: var(--primary-study);
+
+    --h1-color: var(--primary-study);
+    --h2-color: var(--primary-study);
+    --h3-color: var(--primary-study);
+    --h4-color: var(--primary-study);
+    --h5-color: var(--primary-study);
+    --h6-color: var(--primary-study);
+
+    --background-modifier-border-focus: var(--primary-study);
+    --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
+    --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+    --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  }
+
+  .studynote :is(i) {
+    color: var(--secondary-study);
+  }
+
+  .studynote :is(b) {
+    color: var(--primary-study);
+  }
+
+
+  .studynote :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--primary-study);
+    text-align: center;
+    font-size: 60px;
+    font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    padding: 0 !important;
+  }
