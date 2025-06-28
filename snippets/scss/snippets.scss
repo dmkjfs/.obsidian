@@ -1,0 +1,8 @@
+@import 'base';
+
+
+.diary { @include base(#f6466f, #f39caa) }
+.docs { @include base(#6f51f4, #8476c1) }
+.scenario { @include base(#43cfea, #96eeff) }
+.study { @include base(#f6466f, #f39caa) }
+.work { @include base(#e3365e, #ff83a0) }

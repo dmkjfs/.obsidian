@@ -1,0 +1,21 @@
+{
+  "accentColor": "#1831f5",
+  "theme": "system",
+  "cssTheme": "Vanilla AMOLED",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "JetBrains Mono",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "daily",
+    "sidebar",
+    "study",
+    "scenario",
+    "diary",
+    "work"
+  ],
+  "baseFontSize": 16,
+  "showViewHeader": true,
+  "showRibbon": true,
+  "baseFontSizeAction": true
+}

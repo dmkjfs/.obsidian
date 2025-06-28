@@ -1,0 +1,217 @@
+:root {
+  $yellow: #ffd85e;
+  $lime: #97e768;
+  $green: #52eea3;
+  $cyan: #43cfea;
+  $blue: #437cf3;
+  $violet: #6f51f4;
+  $magenta: #e54f9b;
+  $red: #e3365e;
+  $gray: #515768;
+
+  $default-text-color: #d0d0d0;
+  $highlight: #fff;
+  $shadow: #0b0c2c;
+  $contrast-color: $shadow;
+
+  $nav-item-weight-hover: bold;
+  $contrast-color: $highlight;
+  $bg-contrast-amount: 15%;
+  $fg-contrast-amount: 40%;
+  $medium-contrast-amount: 20%;
+  $active-contrast-amount: 10%;
+}
+
+.nav-folder-title {
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-file-title,
+  .nav-folder-title {
+    padding-top: 3px !important;
+    padding-right: 5px !important;
+    padding-bottom: 2px !important;
+    padding-left: 15px;
+  }
+}
+
+.nav-folder-title[data-path^="01"] {
+  color: $yellow;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $yellow) $fg-contrast-amount,
+    $contrast-color
+  ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $yellow) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $yellow) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $green) 60%, transparent;
+}
+
+.nav-folder-title[data-path^="02"] {
+  color: $lime;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $lime) $fg-contrast-amount,
+    $contrast-color
+ ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $lime) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $lime) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $lime) 60%, transparent;
+}
+
+.nav-folder-title[data-path^="03"] {
+  color: $green;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $green) $fg-contrast-amount,
+    $contrast-color
+  ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $green) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $green) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $green) 60%, transparent;
+}
+
+.nav-folder-title[data-path^="04"] {
+  color: $cyan;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $cyan) $fg-contrast-amount,
+    $contrast-color
+  ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $cyan) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $cyan) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $cyan) 60%, transparent;
+}
+
+.nav-folder-title[data-path^="05"] {
+  color: $blue;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $blue) $fg-contrast-amount,
+    $contrast-color
+  ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $blue) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $blue) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $blue) 60%, transparent;
+}
+
+.nav-folder-title[data-path^="06"] {
+  color: $violet;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $violet) $fg-contrast-amount,
+    $contrast-color
+  ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $violet) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $violet) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $violet) 60%, transparent;
+}
+
+.nav-folder-title[data-path^="07"] {
+  color: $magenta;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $magenta) $fg-contrast-amount,
+    $contrast-color
+  ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $magenta) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $magenta) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $magenta) 60%, transparent;
+}
+
+.nav-folder-title[data-path^="08"] {
+  color: $red;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $red) $fg-contrast-amount,
+    $contrast-color
+  ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $red) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $red) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $red) 60%, transparent;
+}
+.nav-folder-title[data-path^="99"] {
+  color: $gray;
+  $nav-item-color-hover: color-mix(
+    in srgb,
+    $gray) $fg-contrast-amount,
+    $contrast-color
+  ;
+  $nav-item-background-hover: color-mix(
+    in srgb,
+    $gray) $bg-contrast-amount,
+    transparent
+  ;
+  $background-modifier-border-focus: color-mix(
+    in srgb,
+    $gray) 40%,
+    transparent
+  ;
+  $nav-collapse-icon-color: color-mix(in srgb, $gray) 60%, transparent;
+}
