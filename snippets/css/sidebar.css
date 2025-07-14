@@ -54,7 +54,7 @@
     var(--yellow) 40%,
     transparent
   );
-  --nav-collapse-icon-color: color-mix(in srgb, var(--green) 60%, transparent);
+  --nav-collapse-icon-color: color-mix(in srgb, var(--yellow) 60%, transparent);
 }
 
 .nav-folder-title[data-path^="02"] {
